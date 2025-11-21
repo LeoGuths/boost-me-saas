@@ -6,12 +6,12 @@ import CardProfile from '@/app/dashboard/me/_components/card-profile';
 export default async function Me() {
   const session = await auth();
 
-  if (!session?.user) {
+  if (!session?.user || !session.user.id) {
     redirect('/');
   }
 
   const userData = {
-    id: session.user.id,
+    id: session.user.id!,
     name: session.user?.name || null,
     username: session.user?.username || null,
     bio: session.user?.bio || null,
