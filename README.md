@@ -13,6 +13,14 @@
 
 ---
 
+## 🌐 Demo ao Vivo
+
+**🔗 [Ver Plataforma em Produção](https://guths-boost-me.vercel.app/)**
+
+Experimente todas as funcionalidades da plataforma em um ambiente real de produção.
+
+---
+
 ## 💡 Visão Geral
 
 O **BoostMe** é uma plataforma moderna que conecta **desenvolvedores e apoiadores**.  

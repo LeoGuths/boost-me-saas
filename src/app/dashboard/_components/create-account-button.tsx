@@ -29,7 +29,6 @@ export function CreateAccountButton() {
       const data = await res.json();
       window.location.href = data.url;
     } catch (error) {
-      console.error('Erro ao criar conta:', error);
       setLoading(false);
     }
   }
